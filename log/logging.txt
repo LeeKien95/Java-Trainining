@@ -1,0 +1,49 @@
+2018-07-06 13:53:47 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 13:53:47 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 13:53:50 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 13:53:51 WARN  ConnectionProviderInitiator:208 - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2018-07-06 13:53:51 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2018-07-06 13:54:57 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 13:54:57 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 13:54:58 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 13:54:58 WARN  ConnectionProviderInitiator:208 - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2018-07-06 13:54:58 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2018-07-06 14:33:29 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 14:33:29 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 14:33:29 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 14:33:30 WARN  ConnectionProviderInitiator:208 - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2018-07-06 14:33:30 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2018-07-06 14:36:27 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 14:36:27 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 14:36:28 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 14:36:28 WARN  ConnectionProviderInitiator:208 - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2018-07-06 14:36:28 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2018-07-06 14:40:17 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 14:40:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 14:40:18 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 14:40:18 WARN  ConnectionProviderInitiator:208 - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2018-07-06 14:40:18 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2018-07-06 14:48:51 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 14:48:51 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 14:48:52 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 14:48:52 WARN  ConnectionProviderInitiator:208 - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2018-07-06 14:48:52 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2018-07-06 14:50:11 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 14:50:11 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 14:50:11 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 14:50:12 WARN  ConnectionProviderInitiator:208 - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2018-07-06 14:50:12 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2018-07-06 14:53:10 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 14:53:10 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 14:53:10 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 14:53:11 WARN  ConnectionProviderInitiator:208 - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2018-07-06 14:53:11 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2018-07-06 14:55:40 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 14:55:40 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 14:55:40 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 14:55:42 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-06 14:55:42 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-06 14:55:42 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-06 14:55:42 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-06 14:55:42 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-06 14:55:44 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
