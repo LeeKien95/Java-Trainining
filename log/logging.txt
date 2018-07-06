@@ -47,3 +47,100 @@
 2018-07-06 14:55:42 INFO  pooling:143 - HHH10001003: Autocommit mode: false
 2018-07-06 14:55:42 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
 2018-07-06 14:55:44 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-06 15:03:01 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:03:01 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:03:01 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:03:43 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:03:43 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:03:44 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:04:16 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:04:16 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:04:17 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:05:39 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:05:39 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:05:40 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:06:53 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:06:53 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:06:53 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:07:08 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:07:08 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:07:08 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:07:43 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:07:43 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:07:44 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:08:39 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:08:39 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:08:40 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:09:15 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:09:15 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:09:15 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:09:45 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:09:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:09:46 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:09:48 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-06 15:09:48 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-06 15:09:48 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-06 15:09:48 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-06 15:09:48 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-06 15:09:48 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-06 15:10:24 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:10:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:10:25 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:10:27 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-06 15:10:27 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-06 15:10:27 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-06 15:10:27 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-06 15:10:27 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-06 15:10:27 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-06 15:11:16 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:11:16 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:11:17 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:11:18 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-06 15:11:18 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-06 15:11:18 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-06 15:11:18 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-06 15:11:18 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-06 15:11:19 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-06 15:11:25 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/framgia]
+2018-07-06 15:13:30 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:13:30 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:13:31 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:13:32 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-06 15:13:33 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-06 15:13:33 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-06 15:13:33 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-06 15:13:33 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-06 15:13:33 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-06 15:16:03 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:16:03 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:16:03 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:16:05 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-06 15:16:05 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-06 15:16:05 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-06 15:16:05 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-06 15:16:05 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-06 15:16:06 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-06 15:16:07 WARN  SqlExceptionHelper:137 - SQL Error: 1146, SQLState: 42S02
+2018-07-06 15:16:07 ERROR SqlExceptionHelper:142 - Table 'framgia.events' doesn't exist
+2018-07-06 15:16:41 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:16:41 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:16:41 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:16:44 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-06 15:16:44 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306]
+2018-07-06 15:16:44 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-06 15:16:44 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-06 15:16:44 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-06 15:16:44 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-06 15:16:45 WARN  SqlExceptionHelper:137 - SQL Error: 1046, SQLState: 3D000
+2018-07-06 15:16:45 ERROR SqlExceptionHelper:142 - No database selected
+2018-07-06 15:18:36 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-06 15:18:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 15:18:37 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-06 15:18:39 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-06 15:18:39 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-06 15:18:39 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-06 15:18:39 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-06 15:18:39 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-06 15:18:39 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-06 15:18:40 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6df7988f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-06 15:18:41 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/framgia]

@@ -6,12 +6,13 @@
 
 <hibernate-mapping package="main.java.org.hibernate.tutorial.domain">
 
-	<class name="Event" table="EVENTS">
-		<id name="id" column="EVENT_ID">
+	<class name="Person" table="PERSON">
+		<id name="id" column="PERSON_ID">
 			<generator class="native"/>
 		</id>
-		<property name="date" type="timestamp" column="EVENT_DATA"/>
-		<property name="title"/>
+		<property name="firstname"/>
+		<property name="lasttname"/>
+		<property name="age"/>
 	</class>
 
 </hibernate-mapping>
