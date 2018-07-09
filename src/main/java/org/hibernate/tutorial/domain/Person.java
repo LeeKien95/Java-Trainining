@@ -1,12 +1,43 @@
 package main.java.org.hibernate.tutorial.domain;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Person {
 	private Long id;
     private int age;
     private String firstname;
     private String lastname;
+    private Set emailAddresses = new HashSet();
+    private Set events = new HashSet();
 
-    public Person() {}
+    public Set getEmailAddresses() {
+		return emailAddresses;
+	}
+
+	public void setEmailAddresses(Set emailAddresses) {
+		this.emailAddresses = emailAddresses;
+	}
+
+	public Set getEvents() {
+		return events;
+	}
+
+	public void setEvents(Set events) {
+		this.events = events;
+	}
+	
+	public void addToEvent(Event event) {
+        this.getEvents().add(event);
+        event.getParticipants().add(this);
+    }
+
+    public void removeFromEvent(Event event) {
+        this.getEvents().remove(event);
+        event.getParticipants().remove(this);
+    }
+
+	public Person() {}
 
 	public Long getId() {
 		return id;

@@ -12,6 +12,12 @@
 		</id>
 		<property name="date" type="timestamp" column="EVENT_DATA"/>
 		<property name="title"/>
+		
+		<set name="participants" table="Person_EVENT">
+			<key column="EVENT_ID"/>
+			<many-to-many column="PERSON_ID" class="Person"/>
+		</set>
 	</class>
+	
 
 </hibernate-mapping>

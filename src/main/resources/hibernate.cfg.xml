@@ -18,6 +18,8 @@
         <property name="show_sql">true</property>
 
         <mapping resource="org/hibernate/tutorial/domain/Event.hbm.xml"/>
+        <mapping resource="org/hibernate/tutorial/domain/Person.hbm.xml"/>
+        
 
     </session-factory>
 
