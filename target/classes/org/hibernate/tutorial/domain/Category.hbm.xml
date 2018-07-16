@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="main.java.org.hibernate.tutorial.domain">
+
+	<class name="Category" table="CATEGORIES">
+		<id name="id" column="CATEGORY_ID">
+			<generator class="native"/>
+		</id>
+		<property name="name"/>
+		
+		<set name="books" inverse="true" table="BOOK_CATEGORY">
+			<key column="CATEGORY_ID"/>
+			<many-to-many column="BOOK_ID" class="Book"/>
+		</set>
+	</class>
+	
+
+</hibernate-mapping>

@@ -19,6 +19,8 @@
 
         <mapping resource="org/hibernate/tutorial/domain/Event.hbm.xml"/>
         <mapping resource="org/hibernate/tutorial/domain/Person.hbm.xml"/>
+        <mapping resource="org/hibernate/tutorial/domain/Book.hbm.xml"/>
+        <mapping resource="org/hibernate/tutorial/domain/Category.hbm.xml"/>
         
 
     </session-factory>

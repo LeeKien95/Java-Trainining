@@ -262,3 +262,98 @@
 2018-07-09 11:07:15 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 2018-07-09 11:07:16 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@281f23f2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 2018-07-09 11:07:17 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/framgia]
+2018-07-12 00:13:35 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-12 00:13:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-12 00:13:35 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-12 00:13:37 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-12 00:13:37 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-12 00:13:37 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-12 00:13:37 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-12 00:13:37 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-12 00:13:37 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-12 00:13:39 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@546621c4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-12 00:20:06 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-12 00:20:06 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-12 00:20:06 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-12 00:20:08 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-12 00:20:08 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-12 00:20:08 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-12 00:20:08 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-12 00:20:08 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-12 00:20:09 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-12 00:20:10 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@60d1b21f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-12 03:59:38 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-12 03:59:38 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-12 03:59:38 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-12 03:59:40 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-12 03:59:40 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-12 03:59:40 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-12 03:59:40 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-12 03:59:40 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-12 03:59:41 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-12 03:59:43 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@60d1b21f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-12 04:01:18 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-12 04:01:18 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-12 04:01:18 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-12 04:01:20 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-12 04:01:20 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-12 04:01:20 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-12 04:01:20 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-12 04:01:20 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-12 04:01:21 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-12 04:01:22 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@60d1b21f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-12 04:01:23 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-07-12 07:57:07 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-12 07:57:07 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-12 07:57:08 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-12 07:57:10 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-12 07:57:10 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-12 07:57:10 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-12 07:57:10 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-12 07:57:10 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-12 07:57:10 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-12 07:57:12 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@60d1b21f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-12 07:57:38 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-12 07:57:38 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-12 07:57:39 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-12 07:57:41 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-12 07:57:41 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-12 07:57:41 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-12 07:57:41 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-12 07:57:41 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-12 07:57:41 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-12 07:57:43 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@60d1b21f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-12 08:08:30 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-12 08:08:30 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-12 08:08:31 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-12 08:08:32 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-12 08:08:32 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-12 08:08:32 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-12 08:08:32 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-12 08:08:33 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-12 08:08:33 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-12 08:08:34 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@60d1b21f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-12 08:33:28 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-12 08:33:28 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-12 08:33:29 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-12 08:33:31 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-12 08:33:31 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-12 08:33:31 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-12 08:33:31 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-12 08:33:31 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-12 08:33:31 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-12 08:33:32 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@546621c4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-12 08:33:33 WARN  deprecation:1874 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2018-07-12 08:33:34 WARN  deprecation:1874 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2018-07-12 08:41:12 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-12 08:41:12 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-12 08:41:13 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-07-12 08:41:14 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-12 08:41:14 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-12 08:41:14 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-12 08:41:14 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-12 08:41:14 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-12 08:41:15 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-12 08:41:16 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@546621c4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-12 08:41:17 WARN  deprecation:1874 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2018-07-12 08:41:17 WARN  deprecation:1874 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead

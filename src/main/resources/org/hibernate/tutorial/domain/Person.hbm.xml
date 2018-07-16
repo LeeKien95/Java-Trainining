@@ -23,6 +23,15 @@
             <key column="PERSON_ID"/>
             <element type="string" column="EMAIL_ADDR"/>
         </set>
+        
+        <joined-subclass name="Author" table="AUTHOR">
+        	<key column="PERSON_ID"/>
+        	<set name="books" table="BOOK_AUTHOR">
+        		<key column="PERSON_ID"/>
+        		<many-to-many column="BOOK_ID" class="Book"/>
+        	</set>
+        </joined-subclass>
+        
 	</class>
 
 </hibernate-mapping>
