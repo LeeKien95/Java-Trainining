@@ -357,3 +357,246 @@
 2018-07-12 08:41:16 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@546621c4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 2018-07-12 08:41:17 WARN  deprecation:1874 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
 2018-07-12 08:41:17 WARN  deprecation:1874 - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2018-07-16 12:13:27 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 12:13:27 ICT 2018]; root of context hierarchy
+2018-07-16 12:13:27 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 12:13:28 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [main.java.orgg.hibernate.tutorial.util.HibernateUtil] for bean with name 'hibernateUtil' defined in class path resource [spring.xml]; nested exception is java.lang.ClassNotFoundException: main.java.orgg.hibernate.tutorial.util.HibernateUtil
+2018-07-16 12:22:59 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 12:22:59 ICT 2018]; root of context hierarchy
+2018-07-16 12:22:59 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 12:23:00 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 12:23:00 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 12:23:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 12:23:03 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-16 12:23:03 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 12:23:03 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-16 12:23:03 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-16 12:23:03 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-16 12:23:05 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 12:23:08 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 12:23:08 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateUtil' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2018-07-16 12:24:06 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 12:24:06 ICT 2018]; root of context hierarchy
+2018-07-16 12:24:06 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 12:24:06 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 12:24:06 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 12:24:07 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 12:24:09 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-16 12:24:09 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 12:24:09 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-16 12:24:09 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-16 12:24:09 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-16 12:24:09 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 12:24:10 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 12:24:10 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateUtil' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2018-07-16 12:28:44 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 12:28:44 ICT 2018]; root of context hierarchy
+2018-07-16 12:28:44 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 12:28:45 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 12:28:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 12:28:45 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 12:28:47 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-16 12:28:47 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 12:28:47 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-16 12:28:47 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-16 12:28:47 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-16 12:28:48 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 12:28:49 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 12:28:49 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateUtil' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2018-07-16 12:35:27 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 12:35:27 ICT 2018]; root of context hierarchy
+2018-07-16 12:35:27 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 12:35:27 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 12:35:27 ICT 2018]; root of context hierarchy
+2018-07-16 12:35:27 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 12:35:28 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 12:35:28 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 12:35:28 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 12:35:28 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 12:35:28 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 12:35:29 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 12:35:32 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-16 12:35:32 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 12:35:32 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-16 12:35:32 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-16 12:35:32 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-16 12:35:33 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-16 12:35:33 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 12:35:33 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-16 12:35:33 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-16 12:35:33 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-16 12:35:33 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 12:35:33 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 12:35:35 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 12:35:35 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personDAO' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [main.java.org.hibernate.tutorial.dao.PersonDAOImpl]: Constructor threw exception; nested exception is java.lang.ExceptionInInitializerError
+2018-07-16 12:35:35 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 12:35:35 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personDAO' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [main.java.org.hibernate.tutorial.dao.PersonDAOImpl]: Constructor threw exception; nested exception is java.lang.ExceptionInInitializerError
+2018-07-16 13:27:47 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 13:27:47 ICT 2018]; root of context hierarchy
+2018-07-16 13:27:47 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 13:27:48 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 13:27:47 ICT 2018]; root of context hierarchy
+2018-07-16 13:28:15 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3f6f6701: startup date [Mon Jul 16 13:28:15 ICT 2018]; root of context hierarchy
+2018-07-16 13:28:15 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3f6f6701: startup date [Mon Jul 16 13:28:15 ICT 2018]; root of context hierarchy
+2018-07-16 13:28:16 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 13:28:16 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 13:28:17 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@3f6f6701: startup date [Mon Jul 16 13:28:15 ICT 2018]; root of context hierarchy
+2018-07-16 13:28:18 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@3f6f6701: startup date [Mon Jul 16 13:28:15 ICT 2018]; root of context hierarchy
+2018-07-16 13:29:01 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 13:29:01 ICT 2018]; root of context hierarchy
+2018-07-16 13:29:01 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 13:29:01 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 13:29:01 ICT 2018]; root of context hierarchy
+2018-07-16 13:30:44 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4f80542f: startup date [Mon Jul 16 13:30:44 ICT 2018]; root of context hierarchy
+2018-07-16 13:30:45 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 13:31:49 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 13:31:49 ICT 2018]; root of context hierarchy
+2018-07-16 13:31:50 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 13:31:50 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 13:31:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 13:31:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 13:31:52 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-16 13:31:52 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 13:31:52 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-16 13:31:52 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-16 13:31:52 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-16 13:31:53 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 13:31:54 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 13:31:54 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personDAO' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [main.java.org.hibernate.tutorial.dao.PersonDAOImpl]: Constructor threw exception; nested exception is java.lang.ExceptionInInitializerError
+2018-07-16 13:38:49 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 13:38:49 ICT 2018]; root of context hierarchy
+2018-07-16 13:38:49 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 13:38:50 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 13:38:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 13:38:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 13:38:52 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-16 13:38:52 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 13:38:52 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-16 13:38:52 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-16 13:38:52 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-16 13:38:53 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 13:38:55 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 13:38:55 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateUtil' defined in class path resource [spring.xml]: Bean instantiation via factory method failed; nested exception is java.lang.ExceptionInInitializerError
+2018-07-16 13:43:42 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 13:43:42 ICT 2018]; root of context hierarchy
+2018-07-16 13:43:42 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 13:43:43 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 13:43:43 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 13:43:43 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 13:43:45 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-16 13:43:45 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 13:43:45 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-16 13:43:45 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-16 13:43:45 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-16 13:43:46 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 13:43:47 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 13:43:47 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2018-07-16 13:46:13 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 13:46:13 ICT 2018]; root of context hierarchy
+2018-07-16 13:46:13 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 13:46:14 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 13:46:14 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 13:46:14 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 13:46:16 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-16 13:46:16 INFO  pooling:129 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 13:46:16 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2018-07-16 13:46:16 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-16 13:46:16 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-16 13:46:16 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 13:46:18 INFO  pooling:233 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/framgia]
+2018-07-16 13:46:18 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2018-07-16 14:04:03 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39ed3c8d: startup date [Mon Jul 16 14:04:03 ICT 2018]; root of context hierarchy
+2018-07-16 14:04:03 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 14:04:03 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.apache.commons.dbcp.BasicDataSource] for bean with name 'dataSource' defined in class path resource [spring.xml]; nested exception is java.lang.ClassNotFoundException: org.apache.commons.dbcp.BasicDataSource
+2018-07-16 14:07:21 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 14:07:21 ICT 2018]; root of context hierarchy
+2018-07-16 14:07:21 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 14:07:22 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 14:07:22 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 14:07:22 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 14:07:25 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Not supported by BasicDataSource
+2018-07-16 14:07:25 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 14:07:25 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2018-07-16 14:07:26 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.JoinedSubclassEntityPersister
+2018-07-16 14:20:01 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 14:20:01 ICT 2018]; root of context hierarchy
+2018-07-16 14:20:01 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 14:20:02 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 14:20:02 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 14:20:02 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 14:20:05 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Not supported by BasicDataSource
+2018-07-16 14:20:05 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 14:20:05 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2018-07-16 14:20:06 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.JoinedSubclassEntityPersister
+2018-07-16 14:21:25 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 14:21:25 ICT 2018]; root of context hierarchy
+2018-07-16 14:21:25 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 14:21:25 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 14:21:25 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 14:21:26 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is java.io.FileNotFoundException: class path resource [main.resources.hibernate.cfg.xml] cannot be resolved to URL because it does not exist
+2018-07-16 14:21:52 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 14:21:52 ICT 2018]; root of context hierarchy
+2018-07-16 14:21:53 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 14:21:53 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 14:21:53 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 14:21:54 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 14:21:56 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Not supported by BasicDataSource
+2018-07-16 14:21:56 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 14:21:56 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2018-07-16 14:21:57 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.JoinedSubclassEntityPersister
+2018-07-16 14:44:39 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 14:44:39 ICT 2018]; root of context hierarchy
+2018-07-16 14:44:39 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 14:44:40 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 14:44:40 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 14:44:41 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 14:44:43 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Not supported by BasicDataSource
+2018-07-16 14:44:43 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 14:44:43 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2018-07-16 14:44:44 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.JoinedSubclassEntityPersister
+2018-07-16 14:50:18 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 14:50:18 ICT 2018]; root of context hierarchy
+2018-07-16 14:50:18 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 14:50:19 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 14:50:19 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 14:50:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 14:50:23 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 14:51:35 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 14:51:35 ICT 2018]; root of context hierarchy
+2018-07-16 14:51:35 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 14:51:36 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 14:51:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 14:51:36 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 14:51:37 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 14:51:38 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-07-16 14:55:47 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 14:55:47 ICT 2018]; root of context hierarchy
+2018-07-16 14:55:47 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 14:55:48 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 14:55:48 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 14:55:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 14:55:50 WARN  JdbcEnvironmentInitiator:132 - HHH000342: Could not obtain connection to query metadata : Not supported by BasicDataSource
+2018-07-16 14:55:50 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 14:55:50 INFO  LobCreatorBuilderImpl:63 - HHH000422: Disabling contextual LOB creation as connection was null
+2018-07-16 14:55:51 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.JoinedSubclassEntityPersister
+2018-07-16 15:03:34 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 15:03:34 ICT 2018]; root of context hierarchy
+2018-07-16 15:03:34 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 15:03:35 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 15:03:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 15:03:35 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is java.io.FileNotFoundException: class path resource [main/resources/Person.hbm.xml] cannot be opened because it does not exist
+2018-07-16 15:03:49 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 15:03:49 ICT 2018]; root of context hierarchy
+2018-07-16 15:03:50 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 15:03:50 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 15:03:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 15:03:50 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is java.io.FileNotFoundException: class path resource [Person.hbm.xml] cannot be opened because it does not exist
+2018-07-16 15:04:29 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 15:04:29 ICT 2018]; root of context hierarchy
+2018-07-16 15:04:29 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 15:04:30 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 15:04:30 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 15:04:30 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is java.io.FileNotFoundException: class path resource [main.resources.Person.hbm.xml] cannot be opened because it does not exist
+2018-07-16 15:06:35 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 15:06:35 ICT 2018]; root of context hierarchy
+2018-07-16 15:06:36 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 15:06:36 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 15:06:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 15:06:38 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 15:06:40 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2018-07-16 15:06:40 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: An association from the table BOOK_AUTHOR refers to an unmapped class: main.java.org.hibernate.tutorial.domain.Book
+2018-07-16 15:07:47 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 15:07:47 ICT 2018]; root of context hierarchy
+2018-07-16 15:07:48 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 15:07:48 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 15:07:48 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 15:07:51 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 15:07:52 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2018-07-16 15:07:53 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.JoinedSubclassEntityPersister
+2018-07-16 15:08:19 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 15:08:19 ICT 2018]; root of context hierarchy
+2018-07-16 15:08:19 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 15:08:20 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 15:08:20 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 15:08:22 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 15:08:23 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2018-07-16 15:08:23 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: An association from the table PERSON_EVENT refers to an unmapped class: main.java.org.hibernate.tutorial.domain.Event
+2018-07-16 15:10:11 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7d6f77cc: startup date [Mon Jul 16 15:10:11 ICT 2018]; root of context hierarchy
+2018-07-16 15:10:11 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+2018-07-16 15:10:12 INFO  Version:46 - HHH000412: Hibernate Core {5.3.2.Final}
+2018-07-16 15:10:12 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-16 15:10:14 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-07-16 15:10:15 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-07-16 15:10:16 WARN  ClassPathXmlApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [spring.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.JoinedSubclassEntityPersister
